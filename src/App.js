@@ -1,8 +1,12 @@
 import './App.css';
 import Body from './components/Body';
 import NavBar from './components/Navbar';
+import React from 'react';
+import { useMoralis } from 'react-moralis';
 
-function App() {
+export default function App() {
+  const { authenticate, isAuthenticated, user } = useMoralis();
+
   return (
     <div className="App">
       <NavBar 
@@ -11,7 +15,5 @@ function App() {
       />
       <Body/>
     </div>
-  );
+  )
 }
-
-export default App;

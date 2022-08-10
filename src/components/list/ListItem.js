@@ -2,7 +2,7 @@ import React from 'react'
 import './ListItem.css';
 import { useStateValue } from '../../StateProvider';
 
-const ListItem = ({title, description}) => {
+const ListItem = ({title, description, image}) => {
   const [{ basket }, dispatch] = useStateValue();
 
   const removeFromBasket = () => {

@@ -7,7 +7,7 @@ const NavBar = ({image}) => {
     <div className="navbar">
         <div className = "connect__button">
           <ConnectButton />
-          <button className = 'near__connect__button'onClick={signInWithNearWallet}>SIGN IN WITH NEAR</button>
+          <button className = 'near__connect__button'onClick={signInWithNearWallet}>NEAR Sign-in</button>
         </div>
     </div>
   );

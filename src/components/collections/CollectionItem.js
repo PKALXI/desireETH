@@ -24,7 +24,7 @@ const CollectionItem = ({title, description, image}) => {
           <p className='title'>{title}</p>
           <p className='description'>{description}</p>
       </div>
-      <button className='collection__button' onClick={addToBasket}>Add to Cart</button>
+      <button className='collection__button' onClick={addToBasket}>Add</button>
     </div>
   )
 }
