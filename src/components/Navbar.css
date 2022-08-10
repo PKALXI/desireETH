@@ -14,7 +14,6 @@
 
 .connect__button {
     display: flex;
-<<<<<<< Updated upstream
     margin-left:500px;
 }
 
@@ -31,8 +30,7 @@
 
 .near__connect__button:hover{
     background-color: #E4E2E2;
-=======
-    margin-left:550px;
+    /* margin-left:550px; */
 }
 
 .near__connect__button{
@@ -47,7 +45,6 @@
 
 .near__connect__button:hover{
     background-color: rgb(231, 230, 230);
->>>>>>> Stashed changes
 }
 
 .header__logo {

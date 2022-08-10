@@ -1,9 +1,6 @@
 .body{
     display: flex;
-<<<<<<< Updated upstream
-=======
     border: 1px solid black;
->>>>>>> Stashed changes
     text-align: center;
     height: 100%;
     margin-top: 1vh;

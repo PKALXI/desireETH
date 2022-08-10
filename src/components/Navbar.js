@@ -7,11 +7,7 @@ const NavBar = ({image}) => {
     <div className="navbar">
         <div className = "connect__button">
           <ConnectButton />
-<<<<<<< Updated upstream
           <button className = 'near__connect__button'onClick={signInWithNearWallet}>NEAR Sign-in</button>
-=======
-          <button className = 'near__connect__button'onClick={signInWithNearWallet}>SIGN IN WITH NEAR</button>
->>>>>>> Stashed changes
         </div>
     </div>
   );

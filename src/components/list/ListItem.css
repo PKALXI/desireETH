@@ -2,11 +2,8 @@
     display:flex;
     background-color: #EDEDED;
     margin: 14px;
-<<<<<<< Updated upstream
     margin-top: 3px;
-=======
     margin-top: 0px;
->>>>>>> Stashed changes
     padding-left: 1vh;
     padding-right:1vh;
     border-radius: 4px;
@@ -50,11 +47,7 @@
     padding-top: 6px;
     padding-bottom: 6px;
     padding-right: 16px;
-<<<<<<< Updated upstream
     padding-left: 16px; 
-=======
-    padding-left: 10px; 
->>>>>>> Stashed changes
     border: none;
     background-color: #344FCD;
     color: white;
@@ -92,8 +85,5 @@
     transition: ease-in-out;
     background-color: #A81414;
     color: white;
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
+
