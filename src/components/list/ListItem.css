@@ -1,0 +1,87 @@
+.list__item{
+    display:flex;
+    background-color: #EDEDED;
+    margin: 14px;
+    margin-top: 0px;
+    padding-left: 1vh;
+    padding-right:1vh;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.left{
+    border-right: 1px solid black;
+    padding-right: 1vh;
+    margin-right: 1vh;
+    width: 70%;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    padding-top:15px;
+}
+
+.description{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.right{
+    display: flex;
+    width: 30;
+}
+
+.go__button{
+    /* position: absolute; */
+    text-align:center;
+    border-radius: 4px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 20px;
+    margin-right:5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 16px;
+    padding-left: 10px; 
+    border: none;
+    background-color: #344FCD;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.delete__button{
+    /* position: absolute; */
+    border-radius: 4px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    border: none;
+    background-color: #D62A2a;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.go__button:hover{
+    transition: ease-in-out;
+    background-color: #2139A6;
+    color: white;
+}
+
+.delete__button:hover{
+    transition: ease-in-out;
+    background-color: #A81414;
+    color: white;
+}

@@ -1,0 +1,13 @@
+.list{
+    height:50vh;
+}
+
+.list__title{
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+
+.list__items{
+    overflow-y: scroll;
+    height:75vh;
+}
