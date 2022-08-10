@@ -2,7 +2,11 @@ import React from 'react'
 import './ListItem.css';
 import { useStateValue } from '../../StateProvider';
 
+<<<<<<< Updated upstream
 const ListItem = ({title, description, image}) => {
+=======
+const ListItem = ({title, description}) => {
+>>>>>>> Stashed changes
   const [{ basket }, dispatch] = useStateValue();
 
   const removeFromBasket = () => {

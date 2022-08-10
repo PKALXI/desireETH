@@ -1,11 +1,14 @@
 import './App.css';
 import Body from './components/Body';
 import NavBar from './components/Navbar';
+<<<<<<< Updated upstream
 import React from 'react';
 import { useMoralis } from 'react-moralis';
 
 export default function App() {
   const { authenticate, isAuthenticated, user } = useMoralis();
+=======
+>>>>>>> Stashed changes
 
   return (
     <div className="App">
